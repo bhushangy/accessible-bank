@@ -23,7 +23,7 @@
     font: inherit;
   }
 
-  /* it's important that this is in the base layer because of all: unset */
+  /* It's important that this is in the base layer because of all: unset */
   .ax-button {
     all: unset;
     outline: revert;
