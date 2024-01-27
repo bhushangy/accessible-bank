@@ -1,0 +1,36 @@
+@layer component {
+	.input {
+		display: block;
+		width: 100%;
+		border: 1px solid var(--light-border-color);
+		border-radius: 4px;
+		padding: 0.813rem;
+		margin: 0;
+	}
+
+	.input-search {
+		/* Icons are used as decorative images !! */
+		background-image: url('https://res.cloudinary.com/dbfn5lnvx/image/upload/v1647608531/learnhtmlcss/my-bank/magnifier.svg');
+		background-position: 5px center;
+		background-repeat: no-repeat;
+		padding-left: 2.2rem;
+		border-radius: 10px;
+	}
+
+	label {
+		/* Since label is inline, margins won't have effect unless it is made a block level element */
+		display: inline-block;
+		margin-bottom: 0.875rem;
+		color: var(--light-text-color);
+		font-size: 0.875rem;
+	}
+
+	.form-buttons {
+		display: grid;
+		gap: 15px;
+	}
+
+	.form-line {
+		margin-bottom: 1.5rem;
+	}
+}
