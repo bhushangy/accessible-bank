@@ -1,14 +1,13 @@
-@layer component {
-    #onboarding-layout {
-        height: 100vh;
-        height: 100dvh;
-        display: grid;
-        padding: 30px 30px;
-    }
-}
-
 @layer page {
-    #onboarding .dots {
-        text-align: center;
-    }
+	#onboarding-layout {
+		height: 100vh;
+		height: 100dvh;
+		display: grid;
+		padding: 60px 30px 30px 30px;
+		text-align: center;
+	}
+
+	#onboarding-buttons {
+		align-self: end;
+	}
 }
