@@ -12,11 +12,11 @@
 		height: 12px;
 		border: 1px solid var(--primary-color);
 		transition: background-color 200ms, scale 100ms;
-		scale: 0.75;
+		transform: scale(0.75)
 	}
 
 	.dot.active {
 		background-color: var(--primary-color);
-		scale: 1;
+		transform: scale(1)
 	}
 }

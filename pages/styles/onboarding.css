@@ -1,6 +1,7 @@
 @layer page {
 	#onboarding-layout {
 		height: 100vh;
+		/* For mobile browsers */
 		height: 100dvh;
 		display: grid;
 		padding: 60px 30px 30px 30px;
