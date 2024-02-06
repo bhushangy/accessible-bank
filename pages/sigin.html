@@ -2,8 +2,9 @@
 <html lang="en">
 
 <head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link rel="stylesheet" href="../index.css" />
 	<title>Sign in</title>
 </head>
 
@@ -11,29 +12,29 @@
 	<header>
 		<div class="container">
 			<div id="header">
-				<a href="#">
-					<span class="sr-only">Back</span>
-				</a>
-				<h1 id="title-signin">Sign in</h1>
-			</div>
+			<a href="#">
+				<span class="sr-only">Back</span>
+			</a>
+			<h1 id="title-signin">Sign in</h1>
+		</div>
 		</div>
 	</header>
 	<main class="container">
 		<form action="#" aria-labelledby="title-signin">
 			<div class="form-line">
 				<label for="phone-number">Phone number</label>
-				<input class="input" type="text" inputmode="tel" id="phone-number" autocomplete="tel"
-					placeholder="+1 900 800 70 60">
+				<input class="input" id="phone-number" type="text" autocomplete="tel" placeholder="+91 9449998880"
+					inputmode="tel" />
 			</div>
 
 			<div class="form-line">
 				<label for="password">Password</label>
-				<input class="input" type="password" id="password" placeholder="*******" autocomplete="current-password">
+				<input class="input" type="password" id="password" placeholder="*******" autocomplete="current-password" />
 			</div>
 
 			<div class="form-buttons">
-				<a href="#" class="ax-button btn btn--block btn--link recover-password">Recover password</a>
-				<input type="submit" value="Sign in" class="ax-button btn btn--block btn--raised">
+				<a href="#" class="ax-button btn btn--block btn--link">Recover password</a>
+				<input type="submit" value="Sign in" class="ax-button btn btn--block btn--raised" />
 			</div>
 		</form>
 	</main>
