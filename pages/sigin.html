@@ -12,19 +12,22 @@
 	<header>
 		<div class="container">
 			<div id="header">
-			<a href="#">
-				<span class="sr-only">Back</span>
-			</a>
-			<h1 id="title-signin">Sign in</h1>
-		</div>
+				<a href="#" class="back">
+					<span class="sr-only">Back</span>
+				</a>
+				<h1 id="title-signin" class="page-title">Sign in</h1>
+			</div>
 		</div>
 	</header>
-	<main class="container">
+	<main id="main-with-small-header" class="container">
 		<form action="#" aria-labelledby="title-signin">
 			<div class="form-line">
 				<label for="phone-number">Phone number</label>
-				<input class="input" id="phone-number" type="text" autocomplete="tel" placeholder="+91 9449998880"
-					inputmode="tel" />
+				<div class="input-fixed-icon">
+					<div class="input-fixed-left flag-us"></div>
+					<input class="input" id="phone-number" type="text" autocomplete="tel" placeholder="+91 9449998880"
+						inputmode="tel" />
+				</div>
 			</div>
 
 			<div class="form-line">
