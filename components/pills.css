@@ -1,0 +1,22 @@
+@layer component {
+	#pills {
+		display: flex;
+		list-style: none;
+		padding-left: 0;
+		justify-content: space-between;
+		align-items: center;
+		font-size: 0.94rem;
+	}
+
+	#pills .pill {
+		background-color: var(--light-surface-color);
+		padding: 0.6rem 1.2rem;
+		border-radius: 20px;
+		color: var(--dark-color);
+	}
+
+	#pills .pill.active {
+		background-color: var(--primary-color);
+		color: white;
+	}
+}
