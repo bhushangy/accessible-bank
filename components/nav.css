@@ -11,6 +11,7 @@
         background-color: white;
         display: grid;
         grid-template-columns: repeat(4, 1fr);
+        /* Use box shadow / upper border */
         box-shadow: 0px -1px 1px rgb(0 0 0 / 10%);
         text-align: center;
     }
