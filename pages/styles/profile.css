@@ -1,0 +1,15 @@
+@layer page {
+    #header-profile-wrapper {
+        text-align: center;
+    }
+
+    #header-profile-wrapper img {
+        margin-bottom: 10px;
+    }
+
+    #header-profile-top-right {
+        position: absolute;
+        top: 16px;
+        right: 16px;
+    }
+}

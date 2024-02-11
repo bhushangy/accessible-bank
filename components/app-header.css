@@ -1,5 +1,7 @@
 @layer component {
     #app-header {
+        /* For adding settings button in profile page */
+        position: relative;
         background-color: var(--primary-color);
         color: white;
         padding-top: 28px;

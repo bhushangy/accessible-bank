@@ -24,7 +24,18 @@
 	.items .item-name {
 		flex: 1;
 		color: var(--dark-color);
-		font-size: 1rem;
+		font-size: 0.94rem;
 		margin: 0;
+	}
+
+	.item-name-contact {
+		margin: 0;
+	}
+
+	.item-name-phone {
+		color: var(--light-text-color);
+		margin: 0;
+		margin-top: 6px;
+		font-size: 0.87rem;
 	}
 }

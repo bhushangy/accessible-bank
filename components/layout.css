@@ -5,12 +5,19 @@
     border-top-right-radius: 16px;
     border-top-left-radius: 16px;
     padding-top: 10px;
-    /* you can also explicitly create a stacking context or use position: relative;
-      z-index: 1; or we'll do that later in the profile page */
+    /* since #app-header now creates a stacking context, we need this one to appear on top again */
+    position: relative;
   }
 
   .layout-timestamp {
     margin-top: 12px;
     margin-bottom: 0px;
+  }
+
+  .layout-subpage {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 15px;
   }
 }
