@@ -5,7 +5,6 @@
     border-top-right-radius: 16px;
     border-top-left-radius: 16px;
     padding-top: 10px;
-    /* since #app-header now creates a stacking context, we need this one to appear on top again */
     position: relative;
   }
 
