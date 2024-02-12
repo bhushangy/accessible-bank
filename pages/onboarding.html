@@ -43,10 +43,31 @@
 			<div class="dot"></div>
 		</div>
 		<div id="onboarding-buttons" class="form-buttons">
-			<a href="#" class="ax-button btn btn--block btn--raised">Get started</a>
-			<a href="#" class="ax-button btn btn--block btn--link">Register with Debit Card</a>
+			<a href="signin.html" class="ax-button btn btn--block btn--raised">Get started</a>
+			<a href="signin.html" class="ax-button btn btn--block btn--link">Register with Debit Card</a>
 		</div>
 	</main>
+	<script>
+		const slider = document.querySelector('#slider');
+		const dots = document.querySelectorAll('#dots .dot');
+
+		let lastIndex = 0;
+		slider.addEventListener(
+			'scroll',
+			() => {
+				const index = Math.round(slider.scrollLeft / window.innerWidth);
+				if (index === lastIndex) {
+					return false;
+				}
+				lastIndex = index;
+				document
+					.querySelector('#dots .dot.active')
+					?.classList.remove('active');
+				dots[index].classList.add('active');
+			},
+			{ passive: true }
+		);
+	</script>
 </body>
 
 </html>

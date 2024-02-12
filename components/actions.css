@@ -1,0 +1,50 @@
+@layer component {
+    .actions-grid {
+        display: grid;
+        padding-top: 1.5rem;
+        grid-template-columns: repeat(4, 1fr);
+        place-items: center;
+    }
+
+    .action {
+        padding: 23px;
+        border: 1px solid rgba(0, 0, 0, 0.08);
+        box-shadow: 0px 1px 1px rgba(0 0 0 / 5%);
+        border-radius: 10px;
+        background-position: center;
+        background-repeat: no-repeat;
+        transition: background-color 0.2s, translate 0.2s;
+        cursor: pointer;
+    }
+
+    .action-label {
+        font-size: 0.75rem;
+        color: var(--light-text-color);
+        margin-top: 10px;
+        text-align: center;
+    }
+
+    .action:hover {
+        background-color: var(--light-surface-color);
+    }
+
+    .action:active {
+        translate: 1px 1px;
+    }
+
+    .action-topup {
+        background-image: url('https://res.cloudinary.com/dbfn5lnvx/image/upload/v1647608527/learnhtmlcss/my-bank/arrow-up.svg');
+    }
+
+    .action-sendto {
+        background-image: url('https://res.cloudinary.com/dbfn5lnvx/image/upload/v1647608527/learnhtmlcss/my-bank/arrow-right.svg');
+    }
+
+    .action-addcard {
+        background-image: url('https://res.cloudinary.com/dbfn5lnvx/image/upload/v1647608527/learnhtmlcss/my-bank/add.svg');
+    }
+
+    .action-exchange {
+        background-image: url('https://res.cloudinary.com/dbfn5lnvx/image/upload/v1647608532/learnhtmlcss/my-bank/exchange.svg');
+    }
+}
